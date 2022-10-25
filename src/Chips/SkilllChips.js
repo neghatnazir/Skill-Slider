@@ -27,7 +27,10 @@ const SkilllChips = () => {
     const [ state, dispatch] = useReducer(reducer, initialState);
     const selectItem = (item, index) => {
 
-        state.list[index].flag = !state.list[index].flag;
+       state.list[index].flag = !state.list[index].flag;
+       if(state.list[index].flag == false){
+        state.list[index].Rating = 0;
+       }
        dispatch({
         type: 'ON_SELECT',
         payload: state.list
