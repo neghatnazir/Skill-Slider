@@ -12,7 +12,6 @@ const SelectedChips = ({state, setSkillRating}) => {
         const ele = document.getElementById(EleId.toString());
         ele.style.background="url('https://st4.depositphotos.com/13324256/20097/i/600/depositphotos_200978284-stock-photo-blank-bright-blue-abstract-background.jpg') no-repeat left";
         ele.style.backgroundSize = `${val}% 100%`
-         console.log('afridi',val, EleId)
         return setSkillRating(val, EleId)
     }
     return (

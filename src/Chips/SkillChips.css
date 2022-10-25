@@ -11,6 +11,10 @@
     padding: 10px;
     border-radius: 25px;
    background-color: black;
+
+}
+.ChipContainer :hover{
+  cursor: pointer;
 }
 
 .Chip {
@@ -29,7 +33,7 @@
     flex-direction: column; 
 }
 
-.insideTooltip {
+.TooltipContent {
     display: flex;
     flex-direction: column;
   

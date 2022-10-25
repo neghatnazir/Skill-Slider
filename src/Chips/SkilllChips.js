@@ -25,7 +25,6 @@ function reducer(state,action) {
 }
 const SkilllChips = () => {
     const [ state, dispatch] = useReducer(reducer, initialState);
-     console.log(state.list)
     const selectItem = (item, index) => {
 
         state.list[index].flag = !state.list[index].flag;
