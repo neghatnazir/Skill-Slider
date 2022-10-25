@@ -1,0 +1,7 @@
+.App {
+  background-color: black;
+  height: 100vh;
+  /* background-color: aqua; */
+  background-image: "url(./background.jpg)";
+}
+

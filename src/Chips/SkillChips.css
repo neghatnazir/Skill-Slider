@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+.ChipsList {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ChipContainer {
+    border: solid 0.5px white;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 25px;
+   background-color: black;
+}
+
+.Chip {
+    margin: 0px;
+    color: white;
+}
+
+.heading{
+    color: aliceblue;
+    margin: 10px;
+    padding: 10px; 
+}
+
+.AllComponents{
+    display: flex;
+    flex-direction: column; 
+}
+
+.insideTooltip {
+    display: flex;
+    flex-direction: column;
+  
+  }
+
+  .MuiSlider-thumb{
+    color: blue;
+  }
+  .MuiSlider-rail{
+    color: white;
+  }
+  .MuiSlider-track{
+    color: blue;
+  }
+  
